@@ -1,0 +1,89 @@
+@mixin verticalGradient($fromColor, $toColor)
+{	
+	
+	background-image: -webkit-gradient(linear,left top, left bottom , from($fromColor), to($toColor));
+	background-image: -webkit-linear-gradient(top, $fromColor,$toColor);
+	background-image: -moz-linear-gradient(top, $fromColor,$toColor);
+	background-image: -ms-linear-gradient(top, $fromColor,$toColor);
+	background-image: -o-linear-gradient(top, $fromColor,$toColor);
+	background-image: linear-gradient(to bottom, $fromColor,$toColor);
+}
+
+@import 'media';
+
+.jumbotron{
+	margin:0;
+	padding:0;
+	width:100%;
+
+	
+	.image{
+		@include smallDevice{
+			height: 200px;
+		}
+
+		height:400px;
+		background: url(../img/jumbotron.jpg) center center;
+		background-size:cover;
+
+		
+				h1{
+					@include smallDevice{
+						padding-top:30px;
+					}
+					
+					padding-top:150px;
+					text-align:center;
+					color:#fff;
+					font-family: 'Lobster', cursive;
+
+				}
+
+				p{
+					@include smallDevice{
+						margin-top:0;
+					}
+					
+					margin-top:-20px;
+					text-align:center;
+					color:#fff;
+					font-family: 'Indie Flower', cursive;
+				}
+
+				.btn{
+					text-align:center;
+						.button{
+							@include smallDevice{
+							margin-top:10px;
+							display:inline-block;
+							padding:10px 20px 10px 20px;
+							border:2px solid #4682b4;
+							border-radius:5px;
+							font-size:80%;
+							text-transform:uppercase;
+							text-decoration:none;
+							color:#fff;
+							@include verticalGradient(lighten(#4682b4,25%),#4682b4);
+						}
+
+
+							margin-top:30px;
+							display:inline-block;
+							padding:15px 25px 15px 25px;
+							border:2px solid #4682b4;
+							border-radius:7px;
+							font-size:80%;
+							text-transform:uppercase;
+							text-decoration:none;
+							color:#fff;
+							@include verticalGradient(lighten(#4682b4,25%),#4682b4);
+						}
+
+						.button:hover{
+						@include verticalGradient(lighten(#4682b4,40%),#4682b4);
+						}
+					}
+
+
+	}
+}

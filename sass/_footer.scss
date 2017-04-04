@@ -1,0 +1,143 @@
+@import 'media';
+
+footer{
+	@include smallDevice{
+		height:auto;
+	}
+	@include mediumDevice{
+		height:auto;
+	}
+	margin:0;
+	width:100%;
+	height:350px;
+	background-color:#333;
+
+		.footer-wrapper{
+			width:80%;
+			margin:0 auto;
+
+				.post{
+				@include smallDevice{
+					width:30%;
+				}
+				@include mediumDevice{
+					width:30%;
+				}
+					float:left;
+					width:25%;
+
+						h3{
+							font-family: 'Lobster', cursive;
+							color:#777;
+							text-decoration:underline;
+						}
+
+						img{
+							@include smallDevice{
+								display:inline-block;
+								width:25px;
+								height:25px;
+							}
+							padding-bottom:10px;
+							display:block;
+							width:50px;
+							height:50px;
+						}
+
+				}
+
+				.photo{
+					@include smallDevice{
+						display:none;
+					}
+					@include mediumDevice{
+						display:none;
+					}
+					margin-left:20px;
+					float:left;
+					width:40%;
+
+						h3{
+							font-family: 'Lobster', cursive;
+							color:#777;
+							text-decoration:underline;
+						}
+
+						img{
+							border:2px solid #999;
+							padding-bottom:10px;
+							width:100px;
+							height:80px;
+						}
+
+						img:hover{
+							opacity:0.7;
+						}
+
+				}
+
+				.hero-image{
+					float:left;
+					width:25%;
+					@include smallDevice{
+						width: 70%;
+					}
+					@include mediumDevice{
+						width: 70%;
+					}
+						.logo{
+							@include smallDevice{
+								margin: 10px;
+								font-size:14px;
+								padding-left:20px;
+							}
+
+							margin-top:40px;
+							font-size:20px;
+							text-transform:bold;
+							color:#999;
+							padding:15px 0 0 100px;
+							font-family: 'Indie Flower', cursive;
+							
+						}
+				}
+
+			hr{
+				margin-top:50px;
+				opacity:0.1;
+			}
+
+			.left{
+			@include smallDevice{
+				float:none;
+				text-align:center;
+			}
+			@include mediumDevice{
+				float:none;
+				text-align:center;
+			}
+				float:left;
+				font-family: 'Indie Flower', cursive;
+				color:#666;
+					strong{
+						color:#999;
+						font-family: 'Indie Flower', cursive;
+					}
+			}
+
+			.right{
+				@include smallDevice{
+				float:none;
+				text-align:center;
+			}
+				@include mediumDevice{
+				float:none;
+				text-align:center;
+			}
+				float:right;
+				font-family: 'Indie Flower', cursive;
+				color:#666;
+			}
+
+		}
+}

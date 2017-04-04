@@ -1,0 +1,23 @@
+
+.clear{
+	clear:both;
+}
+@import 'media';
+body{
+	margin:0;
+	font-family:Helvetica,sans-seriff;
+		
+}
+
+html{
+	@include smallDevice{
+		font-size:.8em;
+	}
+}
+
+
+@import 'header';
+@import 'jumbotron';
+@import 'wrapper';
+@import 'footer';
+@import 'media';

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Cantiveros Working Portfolio</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Roboto:400,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<!-- <link rel="stylesheet" href="css/animate.css"> -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/wow.min.js"></script>
+
+	<script>
+		new WOW().init();
+
+		$(document).ready(function(){
+
+			$('#focusAbout').click(function(){
+
+					var target = $('.about');
+
+					$('html,body').animate({scrollTop:target.offset().top});
+					return false;
+			}); 
+
+			$('#focusContact').click(function(){
+
+					var target = $('.footer-wrapper');
+
+					$('html,body').animate({scrollTop:target.offset().top});
+					return false;
+			});
+
+
+		});
+	</script>
+</head>
+
+</head>
+<body>
+	
+	<div class="header">
+			<div class="brand wow lightSpeedIn animated" data-wow-delay="1s">
+				<strong>Angelica Joy Cantiveros</strong>
+			</div><!--end of brand-->
+
+			<div class="navbar wow lightSpeedIn animated" data-wow-delay="2s">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li id="focusAbout"><a href="#">About</a></li>
+				<li id="focusContact"> <a href="#">Contact</a></li>
+				
+			</ul>
+			</div><!--end of navbar-->
+	</div><!--end of header-->
+
+	<div class="jumbotron">
+			<div class="image wow lightSpeedIn animated" data-wow-delay="3s">
+			
+				<h1>My Working Portfolio</h1><br><br>
+				<p>I am Angelica Joy Cantiveros, I can help you create a responsive websites that you always wanted.</p>
+				<!-- <div class="btn">
+				<button type="button"  id="focusContact">Contact Me</button>
+				</div> -->
+
+			</div>
+	</div><!--end of jumbotron-->
+
+
+	<div class="wrapper">
+
+		<div class="hLine wow lightSpeedIn animated" data-wow-delay="4s">
+
+			<div class="horizontal"></div>
+			<div class="text">Recent Project</div>
+			<div class="horizontal"></div>
+
+		</div><!--end of hLine-->
+
+		<div class="clear"></div>
+
+		<div class="gallery  wow lightSpeedIn animated" data-wow-delay="5s">
+
+				<img src="img/g1.png" alt="g1">
+				<img src="img/g2.png" alt="g2">
+				<img src="img/g3.png" alt="g3">
+			
+
+		</div><!--end of gallery-->
+
+		<div class="about">
+
+		<div class="hLine wow lightSpeedIn animated" data-wow-delay="1s">
+
+			<div class="horizontal"></div>
+			<div class="text">What I Love To Do</div>
+			<div class="horizontal"></div>
+
+		</div><!--end of hLine-->
+
+		<div class="clear"></div>
+		
+	
+				<br> <br> <br>			
+				<div class="section wow lightSpeedIn animated" data-wow-delay="1s">
+					<img src="img/ico/code.png" alt="code">
+					<h1>Web Development</h1>
+					<p>Creating Web page designs is my passion, I can helps you create a responsive website or blog. I am Knowledgeable in HTML5 , CSS3, JavaScript , Jquery , PHP , Bootstrap / Foundation Framework &amp; MySql. </p>
+				</div>
+
+				<div class="section wow lightSpeedIn animated" data-wow-delay="1s">
+					<img src="img/ico/cogs.png" alt="cogs">
+					<h1>Web Analyst</h1>
+					<p>I am passionate in analyzing the flow of the system and the output of the project. I encounter being a project manager in our team which is a casptone project in our Department. I learned and developed my skills through that experienced.</p>
+				</div>
+				
+				<div class="section wow lightSpeedIn animated" data-wow-delay="1s">
+					<img src="img/ico/games.png" alt="games">
+					<h1>Playing Games</h1>
+					<p>I played a lots of games like RPG games and Dota 2.</p>	
+				</div>
+				
+
+		</div><!--end of about-->
+		
+	</div><!--end of wrapper-->
+
+	<div class="clear"></div>
+	<footer>
+
+		<div class="footer-wrapper">
+
+				<div class="post wow lightSpeedIn animated" data-wow-delay="1s">
+					<h3>Contact Me</h3>
+					<img src="img/ico/phone.png" alt="phone"><h2>+639438058817</h2>
+				</div>
+
+				<div class="photo wow rubberBand animated" data-wow-delay="1ms">
+					<h3>Recent Photos</h3>
+					<img src="img/photo/1.jpg" alt="1">
+					<img src="img/photo/2.jpg" alt="2">
+					<img src="img/photo/3.jpg" alt="3">
+					<img src="img/photo/4.jpg" alt="4">
+					<img src="img/photo/5.jpg" alt="5">
+					<img src="img/photo/6.jpg" alt="6">
+					<img src="img/photo/7.jpg" alt="7">
+					<img src="img/photo/8.jpg" alt="8">
+				</div>
+			
+
+				<div class="hero-image wow lightSpeedIn animated" data-wow-delay="1s">
+					<div class="logo">I believe in sayings that "Knowledge and Skills will always developed through experienced"</div>
+				</div>
+				<div class="clear"></div>				
+				
+				<hr>
+
+				<div class="left">
+					&copy; 2017 <strong>Cantiveros</strong> All Rights Reserved.
+				</div>
+			<div class="left">
+					&copy; 2017 <strong>Cantiveros</strong> All Rights Reserved.
+				</div>
+				<div class="right">Working Portfolio by Angelica Joy Cantiveros</div>
+
+
+		</div>
+
+
+	</footer><!--end of footer-->
+	
+
+
+
+</body>
+</html>
