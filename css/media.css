@@ -1,0 +1,178 @@
+/*===============================
+    Media max-width:455px;
+===============================*/
+
+@media only screen and (max-width : 455px) {
+
+}
+
+/*===============================
+    Media max-width:768px;
+===============================*/
+
+@media only screen and (max-width : 768px) {
+
+    .navbar {
+        background-color: transparent;
+        min-height: 60px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .navbar-nav>li {
+        float: none;
+        display: block;
+        padding: 0px;
+        border: 1px solid #c6a0d8;
+    }
+
+    .navbar-nav {
+        float: none;
+        margin: 0;
+        background: #28082f;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .navbar-collapse {
+        margin-top: 55px;
+        width: 100%;
+    }
+
+    .nav {
+         padding-top: 0; 
+    }
+
+    .navbar-nav>li>a {
+        padding: 15px;
+        color: #c6a0d8;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .navbar-nav>li>a:hover {
+        color: #fff;
+        background-color: #c6a0d8;
+        border-bottom: transparent;
+    }
+
+    .banner-btn .btn-clr {
+        width: 100%;
+    }
+
+}
+
+/*===============================
+    Media min-width:768px;
+===============================*/
+
+@media only screen and (min-width : 768px) {
+
+    .navbar-nav>li>a:hover {
+        color: #9933CC;
+        background-color: transparent;
+    }
+    
+    
+
+    .banner .profile-pic {
+        width: 170px;
+    }
+
+    .banner h1 {
+        font: 3rem'opensans-bold', cambria;
+    }
+
+    #about.about-bg {
+        padding: 0 30px 0 30px;
+    }
+
+    .banner p {
+        font-size: 1.2rem;
+    }
+
+    #scrolldown .fa {
+        padding-top: 2px;
+    }
+
+    .banner .social-links {
+        font-size: 30px;
+    }
+
+    .banner .social-links li {
+        padding: 20px;
+    }
+
+    .resume-bg {
+        padding: 50px 40px 50px 40px;
+    }
+
+    #resume ul.a li{
+        margin-left: 40px;
+    }
+
+    .project-bg {
+        padding: 50px 30px 50px 30px;
+    }
+
+    #contact textarea {
+        height: 10rem;
+    }
+
+    #contact input[type=text], input[type=email], input[type=number] {
+        margin-bottom: 10px;
+        margin-top: 1px;
+            width: 104%;
+    }
+
+}
+
+/*===============================
+    Media min-width:992px;
+===============================*/
+
+@media only screen and (min-width : 992px) {
+
+    #about .profile-pic {
+        width: 235px;
+    }
+
+    #about.about-bg {
+        padding: 0;
+    }
+
+    .resume-bg {
+        padding: 50px 0 50px 0;
+    }
+
+    #resume .percent {
+        margin: 35px;
+    }
+
+    #resume .mrgn-left {
+        margin-left: 40px;
+    }
+
+    .project-bg {
+        padding: 50px 0 50px 0;
+    }
+
+}
+
+/*===============================
+    Media min-width:1200px;
+===============================*/
+
+@media only screen and (min-width : 1200px) {
+
+    .banner p {
+        color: #fff;
+        font-family: cambria !important;
+        font-size: 1rem;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+        margin: 0 0 0 0;
+        margin-top: 15px;
+        line-height: 25px;
+    }
+
+}
