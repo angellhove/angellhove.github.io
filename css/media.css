@@ -1,0 +1,84 @@
+
+@media only screen and (max-width: 767px){
+
+    #index .button .btn{
+        width: 100%;
+    }
+
+    #about .col-sm-5{
+        text-align: center;
+    }
+
+    #about .col-sm-5 img{
+        width: 60%;
+    }
+
+    #about .aboutme .about-content h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #about .aboutme .button .btn{
+        width: 100%;
+    }
+
+    #about .skills .logo img {
+        width: 15%;
+    }
+
+    #about hr.hr-mobile{
+        border-top: 1px solid #4caf50;
+    }
+
+    #project .outer-box{
+        margin-bottom: 0;
+    }
+
+}/*End*/
+
+/*============================
+        min-width: 767px
+=============================*/
+
+@media only screen and (min-width: 767px){
+
+    #index .content h1{
+        font-size: 70px;
+    }
+
+    #about hr.hr-mobile{
+        display: none;
+    }
+
+    #project .inner-box p {
+        height: 200px;
+    }
+      #index .button .btn{
+        margin: 5px;
+    }
+
+}/*End*/
+
+/*============================
+        min-width: 1200px
+=============================*/
+
+@media only screen and (min-width: 1200px){
+
+    #about .aboutme .about-content {
+        padding-top: 210px;
+    }
+
+    #about .aboutme .about-content h1{
+        font-size: 85px;
+    }
+
+    #about .aboutme .button .btn{
+        width: 40%;
+    }
+
+    #project .inner-box p {
+         height: 120px;
+    }
+
+}/*End*/
