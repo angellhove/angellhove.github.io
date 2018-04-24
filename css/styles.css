@@ -177,7 +177,7 @@ li {
     border-bottom-right-radius: 10px;
 }
 
-#project .button-view .btn:hover{
+#project .button-view .btn:hover, .btn:focus{
     background: #ec407a;
      color: #fff;
 }
