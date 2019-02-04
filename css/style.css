@@ -59,11 +59,15 @@ header{
 
 header figure{
     text-align: center;
+    padding: 65px 0;
 }
 
 header figure img{
 	width: 100%;
 	max-height: 720px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: 10px;
+    background: #fff;
 }
 
 /*header .primary-text{
@@ -117,6 +121,7 @@ header .header-button .btn{
     text-align: center;
     padding: 10px;
     border-radius: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 header .header-button .btn:last-child{
@@ -134,6 +139,7 @@ header .social-icon{
     padding: 20px;
 	text-align: center;
 	margin-bottom: 40px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 header .social-icon a.fa {
@@ -161,6 +167,7 @@ header #scrolldown a{
     background: #ec407a;
     border-radius: 100px;
     padding: 2px 11px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 header #scrolldown a:hover{
@@ -277,6 +284,7 @@ header #scrolldown a:hover{
 #project .inner-content{
     background: #F8BBD0;
     border-top: 5px solid #ec407a;
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 #project .button .btn{
@@ -304,6 +312,7 @@ header #scrolldown a:hover{
     border-top: 2px solid #ec407a;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 #project .button-view .btn:hover{
